@@ -30,6 +30,10 @@ io.on("connection", (socket) => {
 
     let __createdTime__ = Date.now();
 
+    socket.emit("acknowledge", {
+      message: `${username} has joined the room`,
+    });
+
     socket.emit("receive_message", {
       message: `Welcome ${username}`,
       username: CHAT_BOT,
