@@ -4,6 +4,12 @@ import Home from "./Home/Home";
 import { useState } from "react";
 import Chat from "./Chat/Chat";
 
+/**
+ Use Hosted API - https://chit-chats-tw5a.onrender.com
+ or 
+ Use local API - http://localhost:4000
+ */
+
 const socket = io.connect("http://localhost:4000");
 
 function App() {

@@ -7,17 +7,20 @@
 This repo contains both frontend and backend
 
 - clone this repository
-- `cd client`
 
-  - $ npm i
-  - $ npm run dev
+- Install the dependencies by
 
-- in new tab `cd server`
+  - `npm i` or
+  - `pnpm i` or
+  - `yarn`
 
-  - $ npm i
-  - $ npm run dev
+- Run the server by
 
-- visit [http://localhost:5173](http://localhost:5173) in your browser
+  - `npm dev` or
+  - `pnpm dev` or
+  - `yarn dev`
+
+- visit [http://localhost:4000](http://localhost:4000) in your browser
 
 #### Note
 
